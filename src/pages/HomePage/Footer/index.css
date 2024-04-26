@@ -1,0 +1,19 @@
+.footer-link > div:hover {
+  color: rgb(186, 183, 181);
+  cursor: pointer;
+}
+
+.footer-signup-btn {
+  border: none;
+}
+.footer-signup-input {
+  border: none;
+}
+.footer-signup-input:focus {
+  outline: none !important;
+}
+
+.footer-signup-content {
+  font-size: 12px;
+  /* color: gray; */
+}

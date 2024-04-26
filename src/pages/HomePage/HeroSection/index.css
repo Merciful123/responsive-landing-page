@@ -1,0 +1,85 @@
+/* explore btn css carousel */
+
+.explore-btn-carousel {
+  background: linear-gradient(to right, #03f9ed, #0357cc);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.hero-carousel-height {
+  height: 65vh;
+}
+.carousel-btn-container {
+  transform: translateX(-210px);
+}
+
+.go-btn-carousel-container-inner {
+  /* transform: translateY(-50px); */
+  transition: all 1s ease;
+  transition: transform 1s ease;
+
+  display: none !important;
+}
+
+.go-btn-carousel-container-outer {
+  transition: all 1s ease;
+  transition: transform 1s ease;
+}
+.go-btn-carousel-container-inner:hover {
+  transition: all 1s ease;
+  transition: transform 1s ease;
+}
+
+.carousel-btn-container {
+  animation: moveRight 1s forwards;
+  /* z-index: 999999; */
+}
+
+@keyframes moveRight {
+  0% {
+    left: 0;
+  }
+  100% {
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
+
+.carousel-btn-container:hover {
+  transition: all 1s ease;
+  transition: transform 1s ease;
+}
+
+.go-btn-carousel-container-inner:hover {
+  transition: all 1s ease;
+  transition: transform 1s ease;
+}
+.go-btn-carousel-container-outer:hover {
+  transition: all 1s ease;
+  transition: transform 1s ease;
+}
+
+.carousel-btn-container:hover
+  /* .carousel-btn-container:hover */
+  .go-btn-carousel-container-inner {
+  /* z-index: ; */
+  display: block !important;
+  transform: translateY(-50px);
+}
+
+/* resp css in carousel */
+
+@media only screen and (max-width: 576px) {
+  .hero-carousel-height {
+    height: 45vh;
+  }
+}
+
+@media only screen and (max-width: 885px) {
+  .hero-carousel-height {
+    height: 50vh;
+  }
+  .feature-container {
+    margin: 3px;
+  }
+}

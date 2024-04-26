@@ -1,0 +1,67 @@
+.login-page-main {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    linear-gradient(360deg, #6100ff 0.63%, #3aebed 100%) !important;
+  height: 90vh;
+}
+
+.login-breadcrumb {
+  height: 56px;
+  width: 100% !important;
+}
+
+.login-form-parent {
+  height: 64vh;
+  /* width: 35% !important; */
+}
+
+@media only screen and (max-width: 350px) {
+  .login-form-parent {
+    height: 70vh;
+  }
+  .login-page-main {
+    height: 95vh;
+  }
+  .login-heading {
+    margin-bottom: 0 !important;
+    margin-top: 60px;
+    text-align: center;
+  }
+  .reg-link-btn {
+    margin-bottom: 10px;
+  }
+}
+@media only screen and (max-width: 430px) {
+  .login-page-main {
+    height: 87vh;
+  }
+}
+@media only screen and (max-width: 322px) {
+  .login-form-parent {
+    height: 70vh !important;
+  }
+}
+@media only screen and (max-width: 320px) {
+  .login-page-main {
+    height: 97vh;
+  }
+}
+@media only screen and (max-width: 395px) {
+  .login-form-parent {
+    height: 60vh;
+  }
+}
+
+.forgot-pass-btn {
+  size: 0.8em;
+  font-size: 0.8em;
+  border: none;
+}
+.reg-link-btn {
+  border: none;
+  font-size: 0.9em;
+  color: #636363;
+}
+
+.input-color {
+  color: #636363 !important;
+}

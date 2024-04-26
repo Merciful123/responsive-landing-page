@@ -1,0 +1,99 @@
+.category-background {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    linear-gradient(270deg, #2abcc6 0.63%, #3aebed 100%) !important;
+}
+
+.category-btn:hover {
+  color: #301f45 !important;
+}
+
+/* carousel */
+
+.swiper-container {
+  width: 800px;
+  height: 200px;
+}
+
+.swiper-slide {
+  background-color: purple;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.red {
+  background-color: red;
+}
+
+/* carousel css */
+.category-image-container {
+  position: relative;
+  border-radius: 0 !important;
+}
+.category-image-container > img {
+  border-radius: 0 !important;
+}
+.card-img-top {
+  object-fit: cover;
+}
+
+/* absolute bottom-0 left-0 right-0 bg-[#eaeaea] w-full   flex flex-col p-2 items-start text-[.9em] font-semibold category-carousel-link */
+.card-body {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #eaeaea;
+  width: 100%;
+  font-size: 0.9em;
+}
+.card-body > button {
+  font-size: 0.8em;
+  border: none;
+}
+
+.category-image-container:hover {
+  cursor: pointer;
+  transition: all 0.5s ease;
+  transition: transform 0.5s ease;
+}
+
+.category-image-container:hover > img {
+  opacity: 0.7;
+}
+
+.category-carousel-link {
+  transform: translateY(-8px) scale(0.9);
+  transition: all 0.5s ease;
+}
+
+.category-image-container:hover .category-carousel-link {
+  transform: translateY(-16px) scale(0.86);
+  background-color: white;
+}
+
+/* hover card button css */
+
+.card-btn-underline-style {
+  text-decoration: none;
+  position: relative;
+}
+
+.card-btn-underline-style:after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  border-bottom: 1.5px solid rgb(88, 86, 86);
+  transition: 0.4s;
+}
+
+.card-btn-underline-style:hover:after {
+  width: 0%;
+}
+
+/* .card-btn-underline-style:hover {
+  border-bottom:  1.5px solid rgb(87, 87, 87);
+} */

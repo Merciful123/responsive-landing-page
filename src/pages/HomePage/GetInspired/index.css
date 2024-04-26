@@ -1,0 +1,204 @@
+.get-inspired-background {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    linear-gradient(270deg, #2abcc6 0.63%, #3aebed 100%) !important;
+}
+
+.get-inspired-box-lateral:hover {
+  transition: all 0.5s ease;
+}
+
+.get-inspired-box-lateral {
+  transition: all 0.5s ease;
+  background-color: #22175c;
+  height: 60vh;
+  width: 70%;
+  /* transform: translateX(-10px); */
+}
+
+.get-inspired-img {
+  transform: translate(-10px, -10px);
+  transition: all 0.5s ease;
+}
+
+/*  Media queries */
+
+/*  */
+@media only screen and (min-width: 1024px) {
+  .get-inspired-img:hover {
+    transform: translate(0px, 0px);
+  }
+}
+
+/*  */
+
+/*  */
+
+@media only screen and (max-width: 885px) {
+  .get-inspired-background {
+    height: 90vh !important;
+  }
+  .get-inspired-resp-class > p {
+    margin-top: 20px;
+    place-items: center;
+    text-align: center !important;
+  }
+  .get-inspire-heading {
+    margin-top: 40px;
+    text-align: center !important;
+  }
+  #get-inspire-head {
+    text-align: center !important;
+  }
+  .get-inspire-btn {
+    place-self: center;
+    text-align: center !important;
+  }
+  .get-inspired-box-lateral {
+    background-color: transparent;
+  }
+  .get-inspired-img {
+    height: 55vh !important;
+  }
+}
+/* / */
+
+@media only screen and (max-width: 770px) {
+  .get-inspired-background {
+    height: 95vh;
+  }
+  .get-inspired-img {
+    height: 55vh !important;
+  }
+
+  .get-inspired-resp-class > p {
+    margin-top: 20px;
+    place-items: center;
+    text-align: center !important;
+  }
+  .get-inspire-heading {
+    margin-top: 40px;
+    text-align: center !important;
+  }
+  #get-inspire-head {
+    text-align: center !important;
+  }
+  .get-inspire-btn {
+    place-self: center;
+    text-align: center !important;
+  }
+  .get-inspired-img {
+    height: 55vh !important;
+  }
+}
+
+/*  */
+
+/*  */
+@media only screen and (max-width: 768px) {
+  .get-inspired-box-lateral {
+    background: none !important;
+  }
+  .get-inspired-img {
+    transform: translate(0px, 0px);
+  }
+}
+
+.get-inspired-img {
+  height: 60vh;
+  object-fit: cover;
+}
+/*  */
+
+@media only screen and (max-width: 576px) {
+  .get-inspired-resp-class {
+    /* width: 100%; */
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    justify-self: center;
+    align-self: center;
+    place-self: center;
+    /* width: 90%; */
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+  .get-inspired-background {
+    height: 84vh;
+  }
+  .get-inspired-resp-class > p {
+    width: 90%;
+    margin-top: 20px;
+    text-align: center !important;
+    align-self: center !important;
+    justify-self: center !important;
+  }
+  .get-inspired-resp-class > h1 {
+    margin-top: 20px;
+    align-self: center;
+    justify-self: center;
+  }
+  .get-inspired-resp-class > div {
+    align-self: center;
+    justify-self: center;
+  }
+  .get-inspired-img {
+    width: 98% !important;
+    /* margin: auto; */
+    width: 80% !important;
+    height: 40vh !important;
+  }
+}
+
+/*  */
+
+/*  */
+
+@media only screen and (max-width: 430px) {
+  .get-inspired-background {
+    height: 77vh !important;
+  }
+  .get-inspired-img {
+    margin-bottom: 37px !important;
+    height: 35vh !important;
+  }
+  .get-inspired-resp-class {
+    margin-top: 30px !important;
+  }
+}
+
+/*  */
+
+/*  */
+
+@media only screen and (max-width: 395px) {
+   .get-inspired-background {
+    height: 85vh !important;
+  }
+  .get-inspired-img {
+    height: 40vh !important;
+  }
+}
+
+/*  */
+
+@media only screen and (max-width: 380px) {
+  .get-inspired-background {
+    height: 90vh !important;
+  }
+  .get-inspired-img {
+    height: 40vh !important;
+  }
+}
+
+/*  */
+
+@media only screen and (max-width: 321px) {
+  .get-inspired-background {
+    height: 110vh !important;
+  }
+
+  .get-inspired-img {
+    height: 40vh !important;
+  }
+}

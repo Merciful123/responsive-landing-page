@@ -1,0 +1,120 @@
+.navbar {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    linear-gradient(270deg, #6100ff 0.63%, #3aebed 100%) !important;
+}
+.dropdown-toggle::after {
+  display: none !important;
+}
+.nav-link {
+  color: white !important;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+/* My css */
+.user-btn:active,
+.user-btn:hover,
+.user-btn {
+  border: none !important;
+  background: none !important;
+  outline: none !important;
+}
+.category-btn {
+  border: none !important;
+}
+
+.search-btn {
+  background-color: #0085ff !important;
+}
+
+.search-btn:hover {
+  background-color: white !important;
+  color: #101f71 !important;
+}
+/* Navbar hover underline css */
+
+.navbar-underline-style {
+  text-decoration: none;
+  position: relative;
+}
+
+.navbar-underline-style {
+  position: relative;
+}
+
+.navbar-underline-style:after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background-color: white;
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.4s, width 0.4s;
+}
+
+.navbar-underline-style:hover:after,
+.navbar-underline-style:focus:after {
+  transform: scaleX(1);
+  width: 100%;
+}
+
+/*  */
+
+.navbar-underline-style:hover:after {
+  width: 100%;
+}
+
+@media only screen and (max-width: 768px) {
+  .navbar-underline-style:hover:after {
+    width: 0%;
+  }
+  .mobile-search-input {
+    width: 75% !important;
+  }
+}
+@media only screen and (max-width: 576px) {
+  .mobile-search-input {
+    width: 75% !important;
+  }
+  .dropdown-menu {
+    background-color: transparent !important;
+    border: none !important;
+    color: white !important;
+  }
+  .navbar-underline-style:hover:after,
+  .navbar-underline-style:focus:after {
+    transform: scaleX(1);
+    /* width: 100%; */
+    width: fit-content;
+  }
+}
+@media only screen and (max-width: 885px) {
+.navbar-underline-style:hover:after,
+  .navbar-underline-style:focus:after {
+    transform: scaleX(1);
+    /* width: 100%; */
+    width: fit-content;
+  }
+  .dropdown-menu {
+    background-color: transparent !important;
+    border: none !important;
+    color: white !important;
+  }
+}
+
+/* removed outline css in search */
+
+.form-control,
+.btn {
+  box-shadow: none !important;
+  outline: none !important;
+}
+
+/* resp css  */
+
+.category-mob-btn:hover {
+  color: white !important;
+}

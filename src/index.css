@@ -1,13 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap");
+
+:root {
+  --primaryColor: #0085ff;
+}
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: "Roboto", sans-serif, -apple-system, BlinkMacSystemFont,
+    "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans",
+    "Droid Sans", "Helvetica Neue", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+/* overflow-x stopped */
+#root {
+  overflow-x: hidden;
+  position: relative;
+  z-index: 9999;
+}
+
+.swiper-slide .swiper-scrollbar .swiper-scrollbar-horizontal {
+  position: relative !important;
+  z-index: 999 !important;
+}
+
+#help-icon {
+  z-index: 999999999999999999;
+}
+#lower {
+  z-index: 1 !important;
+}
+
+/* custom css classes */
+
+.text-color-custom {
+  color: #0085ff;
+}
+
+.custom-primary-color {
+  background-color: #0085ff;
+}
+
+/* primary btn css */
+.primary-btn-custom {
+  background-color: #0085ff;
+  color: white;
+  height: 40px;
+  width: 128px;
+  border-radius: 5px;
+  border: none;
+}
+.primary-btn-custom:hover {
+  color: #301f45;
+  background-color: white;
 }
