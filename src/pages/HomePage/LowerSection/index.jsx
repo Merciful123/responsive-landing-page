@@ -4,7 +4,13 @@ import image2 from "../../../assets/LowerSection/32274338_7922931 (1).png";
 import image3 from "../../../assets/LowerSection/35306335_8279908.png";
 
 // swiper
-import { Navigation, Pagination, Scrollbar, A11y } from "swiper/modules";
+import {
+  Navigation,
+  Pagination,
+  Scrollbar,
+  A11y,
+  Autoplay,
+} from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 // Import Swiper styles
 import "swiper/css";
@@ -54,18 +60,21 @@ export const LowerSectionCarousel = () => {
       <Swiper
         // install Swiper modules
         id="lower"
-        modules={[Navigation, Scrollbar, A11y]}
+        modules={[Navigation, Scrollbar, A11y, Autoplay, Pagination]}
         spaceBetween={10}
         slidesPerView={slidesPerView}
         navigation={true}
         pagination={{ clickable: true }}
         scrollbar={{ draggable: true }}
-
+        autoplay={{
+          delay: 1000,
+          disableOnInteraction: false,
+        }}
+        loop={true}
+        // speed={1000}
         // onSwiper={(swiper) => console.log(swiper)}
         // onSlideChange={() => console.log("slide change")}
       >
-       
-
         <SwiperSlide>
           <img src={image1} alt="" className="w-100  lower-section-carousel " />
         </SwiperSlide>

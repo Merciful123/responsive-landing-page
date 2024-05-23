@@ -37,7 +37,7 @@ export const CategoryCarousel = () => {
   return (
     <Swiper
       // install Swiper modules
-      modules={[Navigation, Scrollbar, A11y]}
+      modules={[Navigation, Scrollbar, A11y, Pagination]}
       spaceBetween={5}
       slidesPerView={slidesPerView}
       navigation={true}

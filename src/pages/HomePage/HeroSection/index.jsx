@@ -75,26 +75,27 @@ const HeroSection = () => {
         ))}
       </Carousel>
       {/* Features in hero section */}
-
-      <Container className="justify-content-center">
-        <Row className="my-4" xs={2} md={2} lg={4}>
-          {features?.map((feature, index) => (
-            <Col key={index} className="mb-2 mb-md-0">
-              <div className="d-flex gap-2 justify-content-center align-items-center feature-container">
-                {feature?.icon}
-                <div className="feature-container">
-                  <div style={{ fontSize: "18px" }}>
-                    <strong>{feature?.title}</strong>
-                  </div>
-                  <div style={{ fontSize: "13px" }}>
-                    <p className="mb-0">{feature?.description}</p>
+      <div className="feature-container-parent">
+        <Container className="justify-content-center  ">
+          <Row  xs={2} md={2} lg={4}>
+            {features?.map((feature, index) => (
+              <Col key={index} className="mb-2 mb-md-0">
+                <div className="d-flex gap-2 justify-content-center align-items-center feature-container">
+                  {feature?.icon}
+                  <div className="feature-container">
+                    <div style={{ fontSize: "18px" }}>
+                      <strong>{feature?.title}</strong>
+                    </div>
+                    <div style={{ fontSize: "13px" }}>
+                      <p className="mb-0">{feature?.description}</p>
+                    </div>
                   </div>
                 </div>
-              </div>
-            </Col>
-          ))}
-        </Row>
-      </Container>
+              </Col>
+            ))}
+          </Row>
+        </Container>
+      </div>
     </div>
   );
 };

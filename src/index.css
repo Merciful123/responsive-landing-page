@@ -59,4 +59,11 @@ code {
 .primary-btn-custom:hover {
   color: #301f45;
   background-color: white;
+  transition: all linear 800ms;  
+}
+
+.featured-product-container-parent{
+  background-color: linear-gradient(to bottom, #f8f9fa, #343a40) !important;
+  /* background-color: #0357cc !important; */
+  /* width: 100% !important; */
 }

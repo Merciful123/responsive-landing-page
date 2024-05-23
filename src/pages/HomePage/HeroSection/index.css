@@ -1,5 +1,10 @@
 /* explore btn css carousel */
 
+.feature-container-parent{
+  background: linear-gradient(to bottom, #f8f9fa, #7baddf);
+  width: 100% !important;
+}
+
 .explore-btn-carousel {
   background: linear-gradient(to right, #03f9ed, #0357cc);
   -webkit-background-clip: text;
