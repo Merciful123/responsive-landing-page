@@ -147,8 +147,8 @@ export const NavbarTop = () => {
 
 export const CategoryDDdesktop = () => {
   return (
-    <Dropdown>
-      <div className="d-flex justify-content-start align-items-center  bg-light pe-4 ps-1">
+    <Dropdown className="category-dropdown">
+      <div className="d-flex justify-content-start align-items-center   pe-4 ps-1">
         <div className="justify-self-start">
           <GiHamburgerMenu size={15} />
         </div>
@@ -156,7 +156,7 @@ export const CategoryDDdesktop = () => {
           <Dropdown.Toggle
             variant="text"
             id="dropdown-basic"
-            className="category-btn  active:outline-none"
+            className="category-btn rounded-3 active:outline-none"
           >
             Category
           </Dropdown.Toggle>

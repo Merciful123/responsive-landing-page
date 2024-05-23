@@ -118,3 +118,9 @@
 .category-mob-btn:hover {
   color: white !important;
 }
+
+.category-dropdown{
+  border-radius: 100px !important;
+  
+  background: linear-gradient(to bottom, #ce98a9, #4f8fcf) !important;
+}
